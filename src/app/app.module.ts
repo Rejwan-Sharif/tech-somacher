@@ -10,6 +10,7 @@ import { WorldComponent } from './world/world.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { UserComponent } from './user/user.component';
 
 const appRoutes= [
   { path: '', component: HomeComponent},
@@ -17,7 +18,8 @@ const appRoutes= [
   { path: 'world', component: WorldComponent},
   { path: 'contact', component: ContactComponent},
   { path: 'login', component: LoginComponent},
-  { path: 'signup', component: SignupComponent}
+  { path: 'signup', component: SignupComponent},
+  { path: 'user', component: UserComponent},
   
 
 ];
@@ -30,7 +32,8 @@ const appRoutes= [
     WorldComponent,
     ContactComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
